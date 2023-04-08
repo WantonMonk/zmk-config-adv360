@@ -1,3 +1,21 @@
+macro_hyperj: macro_hyperj{
+compatible = "zmk,behavior-macro";
+label = "macro_hyperj";
+#binding-cells = <0>;
+bindings = <&macro hyper>, <&kp J>;
+};
+macro_hyperright: macro_hyperright{
+compatible = "zmk,behavior-macro";
+label = "macro_hyperright";
+#binding-cells = <0>;
+bindings = <&macro hyper>, <&kp RIGHT_ARROW>;
+};
+macro_hyperleft: macro_hyperleft{
+compatible = "zmk,behavior-macro";
+label = "macro_hyperleft";
+#binding-cells = <0>;
+bindings = <&macro hyper>, <&kp LEFT_ARROW>;
+};
 macro_hyper: macro_hyper{
 compatible = "zmk,behavior-macro";
 label = "macro_hyper";
